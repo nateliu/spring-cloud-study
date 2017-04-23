@@ -17,6 +17,6 @@ public class HelloController {
 
     @RequestMapping(value = "/hi",method = RequestMethod.GET)
     public String sayHi(@RequestParam String name){
-        return helloConnector.sayHiFromClientOne(name);
+        return helloConnector.sayHiFromClientOne(name) + "--from Feign.";
     }
 }

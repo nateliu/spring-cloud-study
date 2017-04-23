@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    config:
+      label: master
+      server:
+        git:
+          uri: https://github.com/nateliu/spring-cloud-study-config
+          searchPaths: repositories
+          username: nateliu
+          password: ""

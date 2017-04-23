@@ -10,12 +10,12 @@ import org.springframework.web.bind.annotation.RestController;
  * Created by Administrator on 2017/4/22 0022.
  */
 @RestController
-public class HelloControler {
+public class HelloController {
     @Autowired
     HelloService helloService;
 
     @RequestMapping(value = "/hi")
     public String hi(@RequestParam String name){
-        return helloService.hiService(name);
+        return helloService.hiService(name) + "--from ribbon";
     }
 }

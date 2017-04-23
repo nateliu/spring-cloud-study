@@ -16,4 +16,5 @@ include 'services:webservice'
 */
 
 rootProject.name = 'spring-cloud-study'
-include 'spring-cloud-eureka-server','spring-cloud-eureka-client','spring-cloud-ribbon','spring-cloud-feign','spring-cloud-zuul'
+include 'spring-cloud-eureka-server','spring-cloud-eureka-client','spring-cloud-ribbon','spring-cloud-feign','spring-cloud-zuul',
+'spring-cloud-config-server','spring-cloud-config-client'
