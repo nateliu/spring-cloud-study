@@ -1,5 +1,5 @@
 # spring-cloud-study
-this is a study project for spring cloud
+This is a study project for spring cloud, if you can reading chinese, please refer the https://github.com/nateliu/spring-cloud-study/blob/master/Readme.docx file.
 
 main reference urls: 
 http://cloud.spring.io/spring-cloud-static/Dalston.RELEASE/
